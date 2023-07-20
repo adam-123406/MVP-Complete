@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Responsive Registration Form </title>
-            <link rel="stylesheet" href="login.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class="container">
-            <div class="title">Registration</div>
-            <form action="#">
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Full Name</span>
-                        <input type="text" placeholder="Enter Your Name" required >
-                    </div>
-                      <div class="input-box">
-                        <span class="details">User Name</span>
-                        <input type="text" placeholder="Enter User Name" required >
-                    </div>
-                      <div class="input-box">
-                        <span class="details">Email Name</span>
-                        <input type="text" placeholder="Enter Your Email" required >
-                    </div>
-                      <div class="input-box">
-                        <span class="details">Phone Number</span>
-                        <input type="text" placeholder="Enter Your Number" required >
-                    </div>
-                      <div class="input-box">
-                        <span class="details">Password </span>
-                        <input type="text" placeholder="Enter Your Password" required >
-                    </div>
-                      <div class="input-box">
-                        <span class="details">Confirm Password</span>
-                        <input type="text" placeholder="Confirm Your Password" required >
-                    </div>
-                </div>
-                <div class="gender-details">
-                    <input type="radio" name="gender" id="dot-1">
-                     <input type="radio" name="gender" id="dot-2">
-                      <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Gender</span>
-                    <div class="category">
-                        <label for="dot-1">
-                            <span class="dot one"></span>
-                            <span class="gender">Male</span>
-                        </label>
-                        <label for="dot-2">
-                            <span class="dot two"></span>
-                            <span class="gender">Female</span>
-                        </label>
-                        <label for="dot-3">
-                            <span class="dot three"></span>
-                            <span class="gender">Prefer not say</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="button">
-                    <input type="submit" value="Register">
-                </div>
-            </form>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="CSS/login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script> TODO: Place your Font Awesome embed code  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+        <div class="front">
+            <img src="a1.jpg" alt="">
+            <div class="text">
+<span class="text-1">Get a new rental house<br> at the comfort</span>
+<span class="text-2">of your home</span>
+            </div>
         </div>
-    </body>
+        <div class="back">
+            <img class="backImg" src="a1.jpg" alt="">
+            <div class="text">
+
+            </div>
+        </div>
+    </div>
+    <form action="#">
+<div class="form-content">
+    <div class="login-form">
+    <div class="title"> login </div>
+        <div class="input-boxes">
+            <div class="input-box">
+      <i class='bx bxs-envelope'></i>
+         <input type="text" placeholder="Enter your Email" required>
+</div>
+<div class="input-box">
+         <i class='bx bxs-envelope'></i>
+         <input type="password" placeholder="Enter your Password" required>
+</div>
+<div class="text"><a href="#">Forgot Password </a></div>
+<div class="button input-box">
+         <input type="submit"  value="submit">
+            </div>
+            <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+       </div>
+</div>
+<div class="signup-form">
+    <div class="title">signup</div>
+        <div class="input-boxes">
+            <div class="input-box">
+         <i class='bx bxs-user'></i>
+         <input type="text" placeholder="Enter your Name" required>
+</div>
+<div class="input-box">
+           <i class='bx bxs-envelope'></i>
+         <input type="Email" placeholder="Enter your Email" required>
+</div>
+<div class="input-box">
+           <i class='bx bxs-envelope'></i>
+         <input type="password" placeholder="Enter your Password" required>
+</div>
+<div class=" button input-box">
+         <input type="submit"  value="submit">
+            </div>
+             <div class="text sign-up-text">Already have an account? <label for="flip">login now</label></div>
+       </div>
+</div>
+</div>
+    </form>
+</div>
+
+</body>
 </html>
